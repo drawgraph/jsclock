@@ -1,0 +1,18 @@
+
+<html>
+<head>
+
+<title>JS Clock</title>
+<script>
+    function displayTime() {
+        document.getElementById("time").innerHTML = new Date().toISOString();
+    }
+    setInterval(displayTime,1);
+</script>
+</head>
+
+<body>
+    <p id="time" style="font-size:20px;font-weight:bold;color:red"></p>
+</body>
+
+</html>
